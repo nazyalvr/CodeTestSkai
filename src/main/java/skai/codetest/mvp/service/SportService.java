@@ -1,4 +1,4 @@
-package skai.codetest.mvp;
+package skai.codetest.mvp.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

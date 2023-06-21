@@ -1,8 +1,8 @@
 package skai.codetest.mvp.game;
 
 import org.springframework.stereotype.Component;
-import skai.codetest.mvp.FileFormatException;
-import skai.codetest.mvp.model.Player;
+import skai.codetest.mvp.exception.FileFormatException;
+import skai.codetest.mvp.player.Player;
 
 import java.util.Map;
 import java.util.Set;

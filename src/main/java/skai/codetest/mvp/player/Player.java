@@ -1,4 +1,4 @@
-package skai.codetest.mvp.model;
+package skai.codetest.mvp.player;
 
 import org.springframework.stereotype.Component;
 

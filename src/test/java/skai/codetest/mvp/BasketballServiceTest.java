@@ -1,17 +1,13 @@
 package skai.codetest.mvp;
 
+import skai.codetest.mvp.exception.FileFormatException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.web.servlet.MockMvc;
+import skai.codetest.mvp.service.BasketballService;
 import skai.codetest.mvp.game.BasketballGame;
-import skai.codetest.mvp.model.BasketballPlayer;
-import skai.codetest.mvp.repository.TournamentRepository;
+import skai.codetest.mvp.player.BasketballPlayer;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;

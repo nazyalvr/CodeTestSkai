@@ -1,14 +1,15 @@
-package skai.codetest.mvp;
+package skai.codetest.mvp.service;
 
 import org.springframework.stereotype.Service;
+import skai.codetest.mvp.exception.FileFormatException;
 import skai.codetest.mvp.game.BasketballGame;
-import skai.codetest.mvp.model.BasketballPlayer;
+import skai.codetest.mvp.player.BasketballPlayer;
 import skai.codetest.mvp.repository.TournamentRepository;
 
 import java.util.*;
 
 @Service
-public class BasketballService extends SportService{
+public class BasketballService extends SportService {
     private TournamentRepository tournamentRepository;
 
 

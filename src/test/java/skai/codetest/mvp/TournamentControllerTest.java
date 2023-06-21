@@ -1,9 +1,13 @@
 package skai.codetest.mvp;
 
+import skai.codetest.mvp.controller.TournamentController;
+import skai.codetest.mvp.exception.FileExtensionException;
+import skai.codetest.mvp.exception.FileFormatException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.web.multipart.MultipartFile;
+import skai.codetest.mvp.parser.CsvParser;
 import skai.codetest.mvp.repository.TournamentRepository;
 
 import java.io.IOException;
@@ -18,7 +22,7 @@ class TournamentControllerTest {
 
     @Test
     public void tournamentTest() throws FileFormatException, IOException, FileExtensionException {
-        Path path = Paths.get("D:\\codetest\\mvp\\src\\main\\java\\skai\\codetest\\mvp\\tournament\\game.csv");
+        Path path = Paths.get("D:\\codetest\\mvp\\src\\main\\java\\skai\\codetest\\mvp\\examples\\game.csv");
         String name = "game.csv";
         String originalFileName = "game.csv";
         String contentType = "text/plain";

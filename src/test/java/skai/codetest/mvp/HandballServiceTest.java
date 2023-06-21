@@ -1,10 +1,10 @@
 package skai.codetest.mvp;
 
+import skai.codetest.mvp.exception.FileFormatException;
 import org.junit.jupiter.api.Test;
-import skai.codetest.mvp.game.BasketballGame;
+import skai.codetest.mvp.service.HandballService;
 import skai.codetest.mvp.game.HandballGame;
-import skai.codetest.mvp.model.BasketballPlayer;
-import skai.codetest.mvp.model.HandballPlayer;
+import skai.codetest.mvp.player.HandballPlayer;
 
 import java.util.HashSet;
 import java.util.Map;

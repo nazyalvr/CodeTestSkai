@@ -2,9 +2,9 @@ package skai.codetest.mvp.game;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
-import skai.codetest.mvp.FileFormatException;
-import skai.codetest.mvp.HandballService;
-import skai.codetest.mvp.model.HandballPlayer;
+import skai.codetest.mvp.exception.FileFormatException;
+import skai.codetest.mvp.service.HandballService;
+import skai.codetest.mvp.player.HandballPlayer;
 
 import java.util.Map;
 import java.util.Set;

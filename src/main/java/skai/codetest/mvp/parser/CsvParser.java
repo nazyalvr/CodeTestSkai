@@ -1,5 +1,7 @@
-package skai.codetest.mvp;
+package skai.codetest.mvp.parser;
 
+import skai.codetest.mvp.exception.FileExtensionException;
+import skai.codetest.mvp.exception.FileFormatException;
 import lombok.AllArgsConstructor;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.stereotype.Component;
@@ -16,7 +18,7 @@ import java.util.Objects;
 @Component
 @AllArgsConstructor
 public class CsvParser {
-    public Game processFile(MultipartFile file) throws IOException, FileFormatException, FileExtensionException{
+    public Game processFile(MultipartFile file) throws IOException, FileFormatException, FileExtensionException {
         Game game;
         String fileExtension = FilenameUtils.getExtension(file.getOriginalFilename());
         if (!Objects.equals("csv", fileExtension)){

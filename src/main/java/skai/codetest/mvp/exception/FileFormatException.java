@@ -1,4 +1,4 @@
-package skai.codetest.mvp;
+package skai.codetest.mvp.exception;
 
 public class FileFormatException extends Exception {
     public FileFormatException(String message){

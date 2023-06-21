@@ -1,4 +1,4 @@
-package skai.codetest.mvp.model;
+package skai.codetest.mvp.player;
 
 import java.util.Objects;
 
